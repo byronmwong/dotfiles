@@ -1,4 +1,1 @@
-dotfiles
-========
-
-dotfiles
+Patrick Stankard's dotfiles
