@@ -4,3 +4,6 @@
 [submodule ".janus/vim-powerline"]
 	path = .janus/vim-powerline
 	url = git://github.com/Lokaltog/vim-powerline.git
+[submodule ".janus/closetag.vim"]
+	path = .janus/closetag.vim
+	url = git://github.com/vim-scripts/closetag.vim.git
