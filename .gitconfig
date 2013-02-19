@@ -18,3 +18,5 @@
 [github]
 	user = patrickstankard
 	token =
+[push]
+	default = matching
