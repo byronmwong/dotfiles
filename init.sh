@@ -4,9 +4,9 @@ PREREQS="zsh git vim"
 TIMESTAMP=$(date +%s)
 DIR="$( cd "$( dirname "$0" )" && pwd )"
 
-[[ brew ]] && brew install $PREREQS
-[[ apt-get ]] && sudo apt-get install $PREREQS rake
-[[ yum ]] && sudo yum install $PREREQS rake
+[[ brew ]] && brew update && brew install mercurial $PREREQS
+[[ apt-get ]] && sudo apt-get update && sudo apt-get install $PREREQS rake
+[[ yum ]] && sudo yum update && sudo yum install $PREREQS rake
 
 chsh -s /bin/zsh
 
