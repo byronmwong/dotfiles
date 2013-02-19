@@ -5,8 +5,8 @@ TIMESTAMP=$(date +%s)
 DIR="$( cd "$( dirname "$0" )" && pwd )"
 
 [[ brew ]] && brew update && brew install mercurial $PREREQS
-[[ apt-get ]] && sudo apt-get update && sudo apt-get install $PREREQS
-[[ yum ]] && sudo yum update && sudo yum install $PREREQS
+[[ apt-get ]] && sudo apt-get install $PREREQS
+[[ yum ]] && sudo yum install $PREREQS
 
 chsh -s /bin/zsh
 
