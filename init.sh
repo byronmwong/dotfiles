@@ -1,12 +1,12 @@
 #/bin/bash
 
-PREREQS="zsh git vim"
+PREREQS="zsh git vim ruby"
 TIMESTAMP=$(date +%s)
 DIR="$( cd "$( dirname "$0" )" && pwd )"
 
 [[ brew ]] && brew update && brew install mercurial $PREREQS
-[[ apt-get ]] && sudo apt-get update && sudo apt-get install $PREREQS rake
-[[ yum ]] && sudo yum update && sudo yum install $PREREQS rake
+[[ apt-get ]] && sudo apt-get update && sudo apt-get install $PREREQS
+[[ yum ]] && sudo yum update && sudo yum install $PREREQS
 
 chsh -s /bin/zsh
 
