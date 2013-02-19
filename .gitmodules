@@ -1,3 +1,6 @@
 [submodule ".janus/DeleteTrailingWhitespace"]
 	path = .janus/DeleteTrailingWhitespace
 	url = git://github.com/vim-scripts/DeleteTrailingWhitespace.git
+[submodule ".janus/vim-powerline"]
+	path = .janus/vim-powerline
+	url = git://github.com/Lokaltog/vim-powerline.git
