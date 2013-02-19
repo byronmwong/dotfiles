@@ -1,7 +1,5 @@
-== Patrick Stankard's dotfiles ==
+Patrick Stankard's dotfiles
+================================
 
-To install:
- ./init.sh
-
-To update submodules and Janus:
- ./update.sh
+To install: ```./init.sh```
+To update submodules and Janus: ```./update.sh```
