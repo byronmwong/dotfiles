@@ -4,7 +4,7 @@ PREREQS="zsh git vim rake"
 TIMESTAMP=$(date +%s)
 DIR="$( cd "$( dirname "$0" )" && pwd )"
 
-[[ brew ]] && sudo brew install $PREREQS
+[[ brew ]] && brew install $PREREQS
 [[ apt-get ]] && sudo apt-get install $PREREQS
 [[ yum ]] && sudo yum install $PREREQS
 
