@@ -1,8 +1,8 @@
-#/bin/bash
+#!/bin/sh
 
 PREREQS="zsh git vim ruby"
 TIMESTAMP=$(date +%s)
-DIR="$( cd "$( dirname "$0" )" && pwd )"
+DIR="$(cd "$(dirname "$0")" && pwd)"
 
 [[ brew ]] && brew update && brew install mercurial $PREREQS
 [[ apt-get ]] && sudo apt-get install $PREREQS
