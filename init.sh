@@ -22,5 +22,7 @@ mv ~/.vimrc.after ~/.vimrc.after.old-$TIMESTAMP
 ln -sf $DIR/.janus ~/.janus
 ln -sf $DIR/.gitconfig ~/.gitconfig
 ln -sf $DIR/.vimrc.after ~/.vimrc.after
+ln -sf $DIR/.zshrc ~/.zshrc
+ln -sf $DIR/.tmux.conf ~/.tmux.conf
 
 ./update.sh
