@@ -1,6 +1,7 @@
 [user]
 user = Byron Wong
-email = byronmwong@gmail.com
+	email = byronmwong@gmail.com
+	name = Byron
 
 [push]
 default = tracking
